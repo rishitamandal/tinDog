@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+
+}
+h1,h2,h3{
+  font-family: "Montserrat-Black",sans-serif;
+}
+#carouselExampleControls{
+    height:500px;
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+    font-family: "Montserrat-Black",sans-serif;
+    font-weight: bold;
+}
+.big-heading{
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+  margin: auto;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 28%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60%;
+}
+.row{
+  padding: 200px;
+  margin: 5% 6% 6% 7%;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.code{
+  margin:1rem 15%;
+  color: #ef8172;
+}
+.lit{
+  margin:1rem 20%;
+  color: #ef8172;
+}
+.lil{
+  margin:1rem 35%;
+  color: #ef8172;
+}
+p{
+  color: grey;
+}
+.code:hover{
+  color: #ff4c68;
+}
+.lit:hover{
+  color: #ff4c68;
+}
+.lil:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 10px 20px 30px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align:center;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  height: 50%;
+  text-align:center;
+  padding: 10%;
+}
+h3{
+  font-weight: bold;
+  color: white;
+}
+#footer{
+  background-color: #fff;
+  height: 100px;
+  text-align: center;
+  padding: 10%;
+  font-size: 20px;
+}
+.pap{
+ margin: 1rem;
+}
+p{
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
